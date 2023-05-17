@@ -1,0 +1,260 @@
+html, body {
+    height: 100%;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.5fr 3fr 3fr 1fr auto;
+}
+
+.headercontainer {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  background: #56b870; /* Old browsers */
+  background: -moz-linear-gradient(top, #56b870 0%, #a5c956 100%); /* FF3.6+ */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0%, #56b870),
+    color-stop(100%, #a5c956)
+  ); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(
+    top,
+    #56b870 0%,
+    #a5c956 100%
+  ); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(
+    top,
+    #56b870 0%,
+    #a5c956 100%
+  ); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #56b870 0%, #a5c956 100%); /* IE10+ */
+  background: linear-gradient(top, #56b870 0%, #a5c956 100%); /* W3C */
+}
+
+.headercontainer > div {
+  font-size: large;
+  text-align: center;
+  justify-self: center;
+  align-self: center;
+}
+
+.projectgridcontainer {
+    height: 100%;
+    width: 100%;
+
+}
+
+.blue {
+    height: 100%;;
+}
+
+.green {
+  width: 100%;
+  text-align: center;
+  align-self: start;
+  justify-content: end;
+}
+
+#contact {
+  padding-left: 40%;
+}
+
+.covercontainer {
+  display: grid;
+}
+
+.red {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, 1fr);
+
+}
+
+.blue {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 0.5fr));
+  grid-template-columns: 2 fr;
+}
+
+img {
+  width: 50%;
+  height: 50%;
+  align-self: center;
+  justify-self: center;
+      
+}
+
+.zone {
+  padding: 10px;
+  /*margin:40px 60px;*/
+  cursor: pointer;
+  color: #fff;
+  font-size: 2em;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  transition: all 0.3s linear;
+}
+
+.card {
+  display: flex;
+  background-color: grey;
+  padding: 10px;
+  margin: 10px;
+  justify-content: center;
+  transition: all 1s;
+  border: 1px solid red;
+
+}
+
+.card:hover {
+  cursor: pointer;
+  box-shadow: #cf0404;
+  transform: scale(1.1);
+  border: 2px solid green;
+}
+
+
+.footercontainer {
+    margin-top: 20px;
+    height: 100%;
+    width: 100%;
+    background: #f3aaaa; /* Old browsers */
+  background: -moz-linear-gradient(top, #f3aaaa 0%, #febf04 100%); /* FF3.6+ */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0%, #f3aaaa),
+    color-stop(100%, #febf04)
+  ); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(
+    top,
+    #f3aaaa 0%,
+    #febf04 100%
+  ); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(
+    top,
+    #f3aaaa 0%,
+    #febf04 100%
+  ); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #f3aaaa 0%, #febf04 100%); /* IE10+ */
+  background: linear-gradient(top, #f3aaaa 0%, #febf04 100%); /* W3C */
+}
+
+footer {
+    text-align: center;
+    height: 100%;
+    width: auto;
+    align-self: center;
+    justify-self: center;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}
+
+
+.zone:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  -o-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+}
+
+/*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
+/***********************************************************************
+ *  Green Background
+ **********************************************************************/
+.green {
+  border-style: none;
+}
+
+/***********************************************************************
+ *  Red Background
+ **********************************************************************/
+.red {
+  background: #c655be; /* Old browsers */
+  background: -moz-linear-gradient(top, #c655be 0%, #cf0404 100%); /* FF3.6+ */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0%, #c655be),
+    color-stop(100%, #cf0404)
+  ); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(
+    top,
+    #c655be 0%,
+    #cf0404 100%
+  ); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(
+    top,
+    #c655be 0%,
+    #cf0404 100%
+  ); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #c655be 0%, #cf0404 100%); /* IE10+ */
+  background: linear-gradient(top, #c655be 0%, #cf0404 100%); /* W3C */
+}
+
+/***********************************************************************
+ *  Yellow Background
+ **********************************************************************/
+
+
+/***********************************************************************
+ *  Blue Background
+ **********************************************************************/
+.blue {
+  background: #7abcff; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #7abcff 0%,
+    #60abf8 44%,
+    #4096ee 100%
+  ); /* FF3.6+ */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0%, #7abcff),
+    color-stop(44%, #60abf8),
+    color-stop(100%, #4096ee)
+  ); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(
+    top,
+    #7abcff 0%,
+    #60abf8 44%,
+    #4096ee 100%
+  ); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(
+    top,
+    #7abcff 0%,
+    #60abf8 44%,
+    #4096ee 100%
+  ); /* Opera 11.10+ */
+  background: -ms-linear-gradient(
+    top,
+    #7abcff 0%,
+    #60abf8 44%,
+    #4096ee 100%
+  ); /* IE10+ */
+  background: linear-gradient(
+    top,
+    #7abcff 0%,
+    #60abf8 44%,
+    #4096ee 100%
+  ); /* W3C */
+}
