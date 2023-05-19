@@ -46,6 +46,9 @@ body {
   text-align: center;
   justify-self: center;
   align-self: center;
+  margin:1px 2px;
+  padding:10px;
+
 }
 
 .projectgridcontainer {
@@ -65,12 +68,18 @@ body {
 }
 
 #contact {
-  padding-left: 40%;
+  padding-left: 25%;
+  margin-left: auto;
+
+}
+
+#ourteam{
+    min-width: 95px;
 }
 
 .covercontainer {
   display: grid;
-  height: 100%;
+  height: 50vh;
 }
 
 .red {
